@@ -1,9 +1,8 @@
 /*
 
-Wallet test
-https://github.com/Cryptorock/WalletBRAT
+Meta Mining Meta Token
 
-Source https://github.com/Overtorment/MetaMining
+https://github.com/Overtorment/MetaMining
 
 */
 
