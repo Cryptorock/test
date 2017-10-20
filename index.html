@@ -25,6 +25,16 @@
       <hr/>
 
       <div class="row">
+        <div class="col-12" ><b>your ETH balance</b></div>
+      </div>
+
+      <div class="row">
+        <div class="col-12" id="myethbalance">...</div>
+      </div>
+
+      <hr/>
+
+      <div class="row">
         <div class="col-12">Transfer <input type="text" placeholder="amount" id="transferamount" size="4" /> tokens to <input id="transferaddress" size="30" type="text" placeholder="address"/>&nbsp;<button  type="button" class="btn btn-outline-secondary"  onclick="javascript:transfer();">transfer</button></div>
       </div>
 
@@ -86,7 +96,9 @@
 
       myContractInstance.allEvents([], function(error, log){
         if (!error) {
-          console.log(log);
+
+
+
           if (log.event == 'smth') {
 
           } else {
@@ -118,6 +130,18 @@
                 $("#mybalance").text('' + rez.toString(10) + ' ' + symbol + ' (on ' + accounts[0] + ')');
               })
           })        
+      }, 3000);
+
+      setInterval(function(){
+          web3.eth.getAccounts(function(error, accounts){
+              if (error) return;
+              web3.eth.getBalance(accounts[0], function(err,rez){
+                if (err) return;
+                var eth = (rez.dividedBy((new BigNumber("10")).toPower(18)).toString(10));
+                $("#myethbalance").text(eth + ' Eth');
+              })
+
+          })
       }, 3000);
 
 
