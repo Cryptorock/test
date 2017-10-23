@@ -182,13 +182,14 @@ body {
   -webkit-box-shadow: 0px 0px 24.57px 2.43px rgba(0, 0, 0, 0.28), inset 0px 0px 51px 0px rgba(255, 255, 255, 0.22);
   box-shadow: 0px 0px 24.57px 2.43px rgba(0, 0, 0, 0.28), inset 0px 0px 51px 0px rgba(255, 255, 255, 0.22);
   -webkit-transform: scale(0.8);
+  transform: scale(0.8);
   color: #919191;
   z-index: 30;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 82px;
+  padding-right: 82px;
   font-family: "Roboto", sans-serif;
   font-weight: 300; }
   .main__form input {
@@ -235,7 +236,6 @@ body {
 
 .form__copy {
   margin-bottom: 20px;
-  text-align: center;
   position: relative; }
 
 .copy-icon {
