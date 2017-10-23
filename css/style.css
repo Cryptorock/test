@@ -188,8 +188,8 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 50px;
-  padding-left: 82px;
-  padding-right: 82px;
+ /* padding-left: 82px;
+ /* padding-right: 82px;
   font-family: "Roboto", sans-serif;
   font-weight: 300; }
   .main__form input {
