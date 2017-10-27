@@ -50,10 +50,13 @@ body {
 
 .main__slider-content {
   position: relative;
-  z-index: 20; }
+  z-index: 20; 
+   color: #fff;
+}   
+   
   .main__slider-content span,
   .main__slider-content a {
-    color: #C2C2C1;
+    color: #f7f7f5;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     font-weight: 300; }
@@ -450,8 +453,8 @@ transform: scale(0.86);
 	   transform: scale(0.8);
     position: absolute;
     z-index: 20;
-    left: 53px;
-    top: 223px;
+    left: 5%;
+    top: 31%;
 	  }
 	  
 
@@ -462,7 +465,7 @@ transform: scale(0.86);
     }
 .main__slider-content {
     transform: scale(0.6);
-	left: -350px;
+	left: -35%;
     top: -108px;	
 	}
 .footer {
@@ -492,8 +495,8 @@ transform: scale(0.86);
  }
  
  .main__slider-content {
-transform: scale(0.55);
-    left: -117%;
+transform: scale(0.56);
+    left: -16%;
     top: -15%;	
 	}
 	
