@@ -74,47 +74,47 @@
 				</div>
 				<div class="slider__user-info-table">
 					<span class="info-table-name">
-						My ETH: <span class="info-table-value">0.0256</span>
+						My ETH: <span class="info-table-value" id="myethbalance">loading...</span>
 					</span>
 					<span class="info-table-name">
-						Status: <span class="info-table-value">Worker</span>
+						Time: <span class="info-table-value" id="currenttime">loading...</span>
 					</span>
 					<span class="info-table-name">
-						Time: <span class="info-table-value">14:15:01</span>
+						<a href="https://etherscan.io/token/0x9e77d5a1251b6f7d456722a6eac6d2d5980bd891" target="_blank" style="color: white;">View ERC20 token</a>
 					</span>
 				</div>
-				<button class="slider__user-btn">Bug Bounty & feedback</button>
+				<a href="https://bitcointalk.org/index.php?topic=2024699.0" target="_blank"> <button class="slider__user-btn">Bug Bounty & feedback</button></a>
 			</div>
 			<form action="" class="main__form">
 				<span class="form-title">
 					MY BRAT balance
 				</span>
-				<input class="form__main-info" value="000 000.000" disabled>
+				<input class="form__main-info" value="loading..." disabled id="mybalance">
 				<div class="form__copy">
-					0x4be5bd40d06c8a34c72ce12b66cc480b28bb7ce0
+					<span id="myaddress">loading...</span>
 				</div>
 				
-				<i class="copy-icon">
+				<!-- <i class="copy-icon">
 					<img src="img/copy-icon.png" alt="Copy icon">
-				</i>
-				<button class="form-btn">View transaction history in etherscan.io	</button>
+				</i> -->
+				<a href="" target="_blank" id="viewOnEtherscan"><span class="form-btn">View transaction history in etherscan.io	</span></a>
 				<label>
 					BRAT SEND
-					<input type="text" class="form-input form-input-big" placeholder="000 000.000">
+					<input type="text" class="form-input form-input-big" placeholder="000 000.000" id="sendAmount">
 				</label>
 				<label>
 					ADDRESS SEND
-					<input type="text" class="form-input form-input-small">
+					<input type="text" class="form-input form-input-small" id="sendAddress">
 				</label>
                 
                					<input type="checkbox" name="license" id="license">
 				<label class="license-label" for="license">I have read and agree with the conditions.</label> 
                 
-				<button class="form-btn-b form-btn-big">SEND TOKEN BRAT</button>
+				<button onclick="javascript:sendBrat();return false;" class="form-btn-b form-btn-big">SEND TOKEN BRAT</button>
 				
-				<a href="https://www.myetherwallet.com/" class="form-link form-link-left">Alternative wallet</a>
+				<a href="https://www.myetherwallet.com/" target="_blank" class="form-link form-link-left">Alternative wallet</a>
 
-				<a href="#" class="form-link form-link-right">WALLET VERSION: ALFA 1.12</a>
+				<a href="https://github.com/Cryptorock/walletbrat" target="_blank" class="form-link form-link-right">WALLET VERSION: 1.0.0</a>
 			</form>
 			<img src="img/line-1.png" alt="Line" class="line-1">
 			<img src="img/line-2.png" alt="Line" class="line-2">
@@ -129,6 +129,8 @@
 		</footer>
 	</main>
 </body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bignumber.js/4.0.4/bignumber.min.js'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/app.js"></script>
 </html>
