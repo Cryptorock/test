@@ -110,7 +110,7 @@ function startApp(){
     web3.eth.getAccounts(function(error, accounts){
       if (error) return;
       $("#myaddress").text(accounts[0]);
-      $("#viewOnEtherscan").attr('href', 'https://etherscan.io/address/' + accounts[0]);
+      $("#viewOnEtherscan").attr('href', 'https://etherscan.io/token/0x9e77d5a1251b6f7d456722a6eac6d2d5980bd891?a=' + accounts[0]);
     })
   }, 100);
   vi.interval = 5000;
