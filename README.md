@@ -1,7 +1,4 @@
 # BrotherWallet
-[![NPM Package](https://img.shields.io/npm/v/zeppelin-solidity.svg?style=flat-square)](https://www.npmjs.org/package/zeppelin-solidity)
-[![Build Status](https://img.shields.io/travis/OpenZeppelin/zeppelin-solidity.svg?branch=master&style=flat-square)](https://travis-ci.org/OpenZeppelin/zeppelin-solidity)
-[![Coverage Status](https://coveralls.io/repos/github/OpenZeppelin/zeppelin-solidity/badge.svg?branch=master)](https://coveralls.io/github/OpenZeppelin/zeppelin-solidity?branch=master)
 
 BrotherWallet это веб интерфейс использующий плагин MetaMask для осуществления возможности произведения операций с MetaMask через веб интерфейс.
 
@@ -47,7 +44,7 @@ https://goo.gl/forms/ZSD02IlRAgSS0XXq2
 
 
 
-
+# BrotherWallet
 
 BrotherWallet is a web interface that uses the MetaMask plug-in to enable MetaMask operations through the web interface.
 
