@@ -1,48 +1,5 @@
-# BrotherWallet
 
-BrotherWallet это веб интерфейс использующий плагин MetaMask для осуществления возможности произведения операций с MetaMask через веб интерфейс.
-
-BrotherWallet работает только в Google Chrome https://www.google.ru/chrome/browser/desktop/index.html.
-И только при установленном плагине MetaMask https://metamask.io
-
-Инструкция установки MetaMask (создать инструкцию, желательно видео)
-
-BrotherWallet имеет открытый код. BrotherWallet не имеет доступа к пользовательской информации, не хранит ее. BrotherWallet является только веб интерфейсом управляющим плагином MetaMask.
-
-## Для начала работы
-
-BrotherWallet работает только в Google Chrome https://www.google.ru/chrome/browser/desktop/index.html.
-И только при установленном плагине MetaMask https://metamask.io
-
-Установите браузер и MetaMask. Если вы все праивльно сделали вы получите доступ к BrotherWallet.
-
-
-## Безопасность
-BrotherWallet предназначен для обеспечения безопасного, проверенного и проверенного сообществом кода, но, пользуясь здравым смыслом, делайте все, что касается реальных денег! Мы не несем ответственности за ваши решения по внедрению и любые проблемы безопасности, которые могут возникнуть.
-
-Если вы обнаружили проблему безопасности, https://goo.gl/forms/ZSD02IlRAgSS0XXq2
-
-## Ресурсы разработчика
-
-Хотите внести свой вклад в BrotherWallet?
-
-https://goo.gl/forms/ZSD02IlRAgSS0XXq2
-
-## Сотрудничающие организации и аудиты OpenZeppelin
-- [Bro-consortium.io] (Brocconsortium.io)
-
-
-среди прочего ...
-
-
-## Лицензия
-Код, выпущенный в соответствии с [Лицензией MIT] (https://github.com/BrotherWallet/LICENSE).
-
-
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
+## EN
 
 # BrotherWallet
 
@@ -84,4 +41,49 @@ among others...
 
 ## License
 Code released under the [MIT License](https://github.com/BrotherWallet/LICENSE).
+
+
+
+## RU
+
+# BrotherWallet
+
+BrotherWallet это веб интерфейс использующий плагин MetaMask для осуществления возможности произведения операций с MetaMask через веб интерфейс.
+
+BrotherWallet работает только в Google Chrome https://www.google.ru/chrome/browser/desktop/index.html.
+И только при установленном плагине MetaMask https://metamask.io
+
+Инструкция установки MetaMask (создать инструкцию, желательно видео)
+
+BrotherWallet имеет открытый код. BrotherWallet не имеет доступа к пользовательской информации, не хранит ее. BrotherWallet является только веб интерфейсом управляющим плагином MetaMask.
+
+## Для начала работы
+
+BrotherWallet работает только в Google Chrome https://www.google.ru/chrome/browser/desktop/index.html.
+И только при установленном плагине MetaMask https://metamask.io
+
+Установите браузер и MetaMask. Если вы все праивльно сделали вы получите доступ к BrotherWallet.
+
+
+## Безопасность
+BrotherWallet предназначен для обеспечения безопасного, проверенного и проверенного сообществом кода, но, пользуясь здравым смыслом, делайте все, что касается реальных денег! Мы не несем ответственности за ваши решения по внедрению и любые проблемы безопасности, которые могут возникнуть.
+
+Если вы обнаружили проблему безопасности, https://goo.gl/forms/ZSD02IlRAgSS0XXq2
+
+## Ресурсы разработчика
+
+Хотите внести свой вклад в BrotherWallet?
+
+https://goo.gl/forms/ZSD02IlRAgSS0XXq2
+
+## Сотрудничающие организации и аудиты OpenZeppelin
+- [Bro-consortium.io] (Brocconsortium.io)
+
+
+среди прочего ...
+
+
+## Лицензия
+Код, выпущенный в соответствии с [Лицензией MIT] (https://github.com/BrotherWallet/LICENSE).
+
 
